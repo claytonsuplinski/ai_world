@@ -1,0 +1,2 @@
+WXSATS = {};
+var gl;

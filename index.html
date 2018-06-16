@@ -1,0 +1,92 @@
+<html>
+<head>
+	<title>AI World</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="AUTHOR" content="Clayton Suplinski">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="./assets/css/index.css" type="text/css">
+	<link rel="stylesheet" href="./assets/css/landing.css" type="text/css">
+	
+	<link rel="stylesheet" href="./assets/css/menu.css">
+	<link rel="stylesheet" href="./assets/css/popup.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,200" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> 
+</head>
+  
+<body onload='WXSATS.loading.start();'>
+
+<div id="loading-screen">
+	<div class="blue-screen"></div>
+	<div class="content"></div>
+</div>
+
+<div id="menu-icon" onclick="WXSATS.menu.show();"><i class="fa fa-bars"></i></div>
+
+<div id="menu-screen" onclick="WXSATS.menu.hide();"></div>
+<div id="menu" class="collapsed"></div>
+
+<div id="popup">
+	<div id="popup-screen"></div>
+	<div id="popup-content"></div>
+</div>
+
+<canvas id="primary-canvas" width="4096" height="2048" oncontextmenu="return false;">
+  Your browser doesn't appear to support the HTML5 <code>&lt;canvas&gt;</code> element.
+</canvas>
+
+</body>
+  
+	<script src="./assets/lib/glMatrix.min.js"></script>
+	<script src="./assets/lib/sylvester.js"></script>
+	<script src="./assets/lib/glUtils.js"></script>
+
+	<script src="./assets/js/Start.js"></script>
+	<script src="./assets/js/Functions.js"></script>
+	
+	<script src="./assets/js/Camera.js"></script>
+	
+	<script src="./assets/js/Config.js"></script>
+	
+	<script src="./assets/js/Loading.js"></script>
+	<script src="./assets/js/Init.js"></script>
+	<script src="./assets/js/Shader.js"></script>
+	<script src="./assets/js/Mat.js"></script>
+
+	<script src="./assets/js/Mesh.js"></script>
+	<script src="./assets/js/OBJ.js"></script>
+	
+	<script src="./assets/js/Item.js"></script>
+	<script src="./assets/js/CompositeItem.js"></script>
+	
+	<script src="./assets/js/Environment.js"></script>
+	
+	<script src="./assets/js/person/Actions.js"></script>
+	<script src="./assets/js/person/Animations.js"></script>
+	<script src="./assets/js/person/Bag.js"></script>
+	<script src="./assets/js/person/Emotions.js"></script>
+	<script src="./assets/js/person/Memories.js"></script>
+	<script src="./assets/js/Person.js"></script>
+	
+	<script src="./assets/js/Food.js"></script>
+	<script src="./assets/js/Money.js"></script>
+	
+	<script src="./assets/js/Stats.js"></script>
+	<script src="./assets/js/stats/CPUs.js"></script>
+
+	<script src="./assets/js/Main.js"></script>
+	
+	<script src="./assets/js/Menu.js"></script>
+
+	<script src="./assets/js/Mouse.js"></script>
+	<script src="./assets/js/Keyboard.js"></script>
+
+</html>
